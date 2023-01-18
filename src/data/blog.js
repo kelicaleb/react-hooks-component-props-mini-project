@@ -9,6 +9,7 @@ const blogData = {
       id: 1,
       title: "Components 101",
       date: "December 15, 2020",
+      default: function () { return new Date() },
       preview: "Setting up the building blocks of your site",
       minutes: 5,
     },
